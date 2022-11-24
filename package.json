@@ -1,0 +1,31 @@
+{
+  "name": "prokat-tmn.ru",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.2",
+    "@heroicons/vue": "^2.0.13",
+    "@splidejs/vue-splide": "^0.6.12",
+    "swiper": "^8.4.5",
+    "vue": "^3.2.41",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-unicons": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.2.3"
+  }
+}
