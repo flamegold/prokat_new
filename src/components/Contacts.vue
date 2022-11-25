@@ -13,7 +13,7 @@
           </div>
           <div class = "flex flex-col justify-end">
             <p class = "lg:text-4xl text-2xl text-[#00ccff] uppercase font-medium leading-tight mb-3">Наш прокат<br>находится по адресу</p>
-            <p class = "text-lg lg:text-2xl font-medium">г. Тюмень, ул. Республики 137</p>
+            <p class = "text-lg lg:text-2xl font-medium">г. Тюмень, ул. Республики 1371</p>
             <p class = "lg:text-lg ">(на пересечении Республики и холодильной)</p>
             <p class = "lg:text-lg mb-7">Вход с обратной стороны здания</p>
             <p class = "lg:text-4xl text-2xl text-[#00ccff] uppercase font-medium mb-4 leading-snug">Так же вы можете позвонить нам:</p>
