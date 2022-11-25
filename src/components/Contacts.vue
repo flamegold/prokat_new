@@ -1,12 +1,12 @@
 <template>
-  <div class="relative lg:h-[100vh] bg-[#1172d9]">
+  <div class="relative  bg-[#1172d9]">
     <div
       class="absolute lg:bg-[url('/img/U4.png')] w-[400px] bg-no-repeat h-[200px] bg-[length:350px_100%] bottom-[20%] right-0"
     ></div>
     <div
-      class="bg-[url('/img/Fon7.jpg')] bg-center bg-no-repeat lg:bg-[length:100%_102vh] bg-cover lg:h-[100vh]"
+      class="bg-[url('/img/Fon7.jpg')] bg-center bg-no-repeat bg-cover"
     >
-      <div class="container mx-auto px-4 lg:py-28 pb-[150px]">
+      <div class="container mx-auto px-4 pb-[150px]">
         <div class = "lg:grid text-white gap-[100px] lg:grid-cols-[1fr_550px]">
           <div class = "border-4 rounded border-white h-[300px] lg:h-[600px] mb-5">
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A864e2625c01056c15891bd74d68eec2e3bf6238c3a4aacb23728730c9b6671c8&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>

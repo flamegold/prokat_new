@@ -1,12 +1,12 @@
 <template>
-  <div class="relative lg:h-[100vh] bg-[#1172d9]">
+  <div class="relative bg-[#1172d9]">
     <div
       class="absolute lg:bg-[url('/img/U11.png')] w-[100%] bg-no-repeat h-[250px] bg-[length:400px_100%] bottom-[10%] left-[3%]"
     ></div>
     <div
-      class="bg-[url('/img/Fon2.jpg')] bg-center bg-no-repeat bg-[length:100%_101vh] lg:h-[100vh]"
+      class="bg-[url('/img/Fon2.jpg')] bg-center bg-no-repeat lg:bg-[length:100%_100%] lg:h-[100%]"
     >
-      <div class="container mx-auto px-4 lg:py-28 py-4">
+      <div class="container mx-auto px-4 pb-[150px] py-4">
         <div class="lg:flex justify-center items-center mb-7">
           <div class="text-center">
             <p class="text-4xl font-extrabold leading-tight mb-5 uppercase">
@@ -62,7 +62,7 @@
       </div>
     </div>
     <div
-      class="absolute lg:bg-[url('/img/Foto1.png')] w-[550px] bg-no-repeat h-[550px] bg-[length:550px_100%] bottom-[10%] right-0"
+      class="absolute lg:bg-[url('/img/Foto1.png')] w-[400px] bg-no-repeat h-[400px] bg-[length:400px_100%] bottom-0 right-0"
     ></div>
   </div>
 </template>
