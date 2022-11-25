@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'prag': ['Pragmatica', 'sans-serif']
-    }
+    },
   },
   plugins: [],
 }

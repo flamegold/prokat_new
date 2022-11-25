@@ -1,12 +1,12 @@
 <template>
-  <div class="relative h-[100vh] bg-[#1172d9]">
+  <div class="relative lg:h-[100vh] bg-[#1172d9]">
     <div
-      class="absolute lg:bg-[url('/img/U5.png')] w-[400px] bg-no-repeat h-[200px] bg-[length:350px_100%] top-0 right-0"
+      class="absolute lg:bg-[url('/img/U5.png')] w-[400px] bg-no-repeat h-[200px] lg:bg-[length:350px_100%] top-0 right-0"
     ></div>
     <div
-      class="bg-[url('/img/Fon2.jpg')] bg-center bg-no-repeat bg-[length:100%_102vh] h-[100vh]"
+      class="bg-[url('/img/Fon2.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] lg:bg-[length:100%_102vh] lg:h-[100vh]"
     >
-      <div class="container mx-auto px-4 py-28">
+      <div class="container mx-auto px-4 lg:py-28 pb-[150px]">
         <div class="lg:flex justify-center items-center mb-7">
           <div class="text-center">
             <p

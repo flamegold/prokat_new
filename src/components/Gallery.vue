@@ -1,15 +1,12 @@
 <template>
-  <div class="relative h-[100vh] bg-[#1172d9]">
+  <div class="relative lg:h-[100vh] bg-[#1172d9]">
     <div
-      class="absolute lg:bg-[url('/img/people1.png')] w-[400px] bg-no-repeat h-[500px] bg-[length:350px_100%] top-0 left-[15%]"
+      class="absolute lg:bg-[url('/img/U5.png')] w-[400px] bg-no-repeat h-[200px] lg:bg-[length:350px_100%] top-0 right-0"
     ></div>
     <div
-      class="absolute lg:bg-[url('/img/U5.png')] w-[400px] bg-no-repeat h-[200px] bg-[length:350px_100%] top-0 right-0"
-    ></div>
-    <div
-      class="bg-[url('/img/Fon2.jpg')] bg-center bg-no-repeat bg-[length:100%_102vh] h-[100vh]"
+      class="bg-[url('/img/Fon2.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] lg:bg-[length:100%_102vh] lg:h-[100vh]"
     >
-      <div class="container mx-auto px-4 py-28">
+      <div class="container mx-auto px-4 lg:py-28 pb-[150px]">
         <div class="lg:flex justify-center items-center mb-7">
           <div class="text-center">
             <p
@@ -23,25 +20,25 @@
           <swiper 
           :modules="modules" 
           :pagination="{ clickable: true }"
-          :slides-per-view="2"
+          :slides-per-view="1"
           :breakpoints="{
       '640': {
-        slidesPerView: 2,
+        slidesPerView: 1,
       },
       '768': {
-        slidesPerView: 4,
+        slidesPerView: 2,
       },
       '1024': {
-        slidesPerView: 6,
+        slidesPerView: 3,
         spaceBetween: 50,
       },
     }">
-                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/1.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[200px]"></swiper-slide>
-                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/2.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[200px]"></swiper-slide>
-                <swiper-slide class = "rounded border-2 border-[#1e7add]  bg-[url('/img/gallery/3.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[200px]"></swiper-slide>
-                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/4.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[200px]"></swiper-slide>
-                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/5.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[200px]"></swiper-slide>
-                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/6.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[200px]"></swiper-slide>
+                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/1.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
+                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/2.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
+                <swiper-slide class = "rounded border-2 border-[#1e7add]  bg-[url('/img/gallery/3.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
+                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/4.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
+                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/5.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
+                <swiper-slide class = "rounded border-2 border-[#1e7add] bg-[url('/img/gallery/6.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
           </swiper>
         </div>
       </div>
@@ -50,7 +47,7 @@
       class="absolute lg:bg-[url('/img/U6.png')] w-[400px] bg-no-repeat h-[200px] bg-[length:350px_100%] bottom-[30%] left-0"
     ></div>
     <div
-      class="z-20 absolute lg:bg-[url('/img/people2.png')] w-[400px] bg-no-repeat h-[500px] bg-[length:350px_100%] bottom-[-10%] right-[17%]"
+      class="z-20 absolute lg:bg-[url('/img/people2.png')] w-[400px] bg-no-repeat h-[500px] bg-[length:350px_100%] bottom-0 right-[5%]"
     ></div>
   </div>
 </template>
@@ -75,16 +72,6 @@
 </script>
 
 <style>
-.swiper{
-  @apply mx-auto;
-}
-.swiper-wrapper{
-  @apply grid;
-  @apply w-[100%];
-  @apply grid-cols-[repeat(3,300px)];
-  @apply gap-4
-}
-.swiper-slide{
-  @apply w-[100%] !important;
-}
+
+
 </style>

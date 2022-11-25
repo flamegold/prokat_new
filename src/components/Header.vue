@@ -23,7 +23,7 @@
         <div
           class="flex items-center lg:gap-8 gap-2 md:flex-col lg:flex-row flex-col lg:w-auto w-[100%] justify-end"
         >
-          <div class="font-medium text-lg flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <div class="font-medium text-3xl py-2 lg:py-0 lg:text-lg flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
 </svg>+7 693 069 66 99</div>
