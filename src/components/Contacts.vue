@@ -8,7 +8,7 @@
     >
       <div class="container mx-auto px-4 pb-[150px]">
         <div class = "lg:grid text-white gap-[100px] lg:grid-cols-[1fr_550px]">
-          <div class = "border-4 rounded border-white h-[300px] lg:h-[600px] mb-5">
+          <div class = "border-4 rounded border-white h-[400px] lg:h-[100%] mb-5">
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A864e2625c01056c15891bd74d68eec2e3bf6238c3a4aacb23728730c9b6671c8&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
           </div>
           <div class = "flex flex-col justify-end">

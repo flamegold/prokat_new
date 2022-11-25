@@ -1,7 +1,7 @@
 <template>
   <div class="relative  bg-[#1172d9]">
     <div
-      class="bg-[url('/img/Fon3.jpg')] bg-center bg-no-repeat  bg-[length:100%_100%]"
+      class="bg-[url('/img/Fon3.jpg')] bg-center bg-no-repeat  bg-[length:100%_102%]"
     >
       <div class="container mx-auto px-4 pt-2 pb-[150px]">
         <div class="lg:flex justify-center items-center mb-7">
