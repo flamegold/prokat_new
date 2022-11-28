@@ -14,11 +14,16 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^3.0.2",
+    "@headlessui/vue": "^1.7.4",
     "@heroicons/vue": "^2.0.13",
     "@splidejs/vue-splide": "^0.6.12",
+    "axios": "^1.2.0",
     "swiper": "^8.4.5",
     "vue": "^3.2.41",
     "vue-awesome-swiper": "^5.0.1",
+    "vue-axios": "^3.5.2",
+    "vue-resource": "^1.5.3",
+    "vue-the-mask": "^0.11.1",
     "vue-unicons": "^2.1.0"
   },
   "devDependencies": {
