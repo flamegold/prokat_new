@@ -100,7 +100,10 @@
       </div>
     </div>
     <div
-      class="absolute lg:bg-[url('/img/U4.png')] w-[400px] bg-no-repeat h-[200px] bg-[length:350px_100%] bottom-[10%] right-0"
+      class="absolute lg:bg-[url('/img/U4.png')] w-[400px] bg-no-repeat h-[179px] bg-[length:391px_100%] bottom-[10%] right-0"
+    ></div>
+    <div
+      class="absolute lg:bg-[url('/img/people4.png')] w-[200px] bg-no-repeat h-[350px] bg-[length:100%_100%] bottom-[13%] left-[6%]"
     ></div>
   </div>
 </template>

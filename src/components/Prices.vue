@@ -14,7 +14,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:grid grid-cols-[repeat(3,220px)] justify-center items-center gap-10">
+        <div class="relative z-10 lg:grid grid-cols-[repeat(3,220px)] justify-center items-center gap-10">
           <div class="bg-[#7ebdf3] rounded">
             <div
               class="m-[6px] lg:border lg:px-10 py-5 border-white text-center flex flex-col gap-1 font-medium"
@@ -62,7 +62,7 @@
       </div>
     </div>
     <div
-      class="absolute lg:bg-[url('/img/Foto1.png')] w-[400px] bg-no-repeat h-[400px] bg-[length:400px_100%] bottom-0 right-0"
+      class="z-20 absolute lg:bg-[url('/img/Foto1.png')] w-[400px] bg-no-repeat h-[400px] bg-[length:400px_100%] bottom-0 right-0"
     ></div>
   </div>
 </template>

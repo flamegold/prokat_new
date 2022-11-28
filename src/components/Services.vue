@@ -16,7 +16,7 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-col justify-center items-center gap-5">
+        <div class="flex flex-col justify-center items-center gap-5 relative z-10">
           <div class = "px-4 justify-between items-center rounded flex w-[100%] lg:w-[850px] bg-gradient-to-r from-[#168fea] to-[#0e5fca] text-white">
             <div class = "uppercase text-xl md:text-3xl lg:text-3xl font-meduim">Заточка сноуборда/лыж</div>
             <div class = "font-meduim md:text-2xl lg:text-2xl font-bold w-[30%] text-right"><span class = "md:text-5xl lg:text-5xl">500</span> P</div>
