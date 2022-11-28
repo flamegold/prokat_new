@@ -19,15 +19,27 @@
             <p class = "lg:text-4xl text-2xl text-[#00ccff] uppercase font-medium mb-4 leading-snug">Так же вы можете позвонить нам:</p>
             <div class = "lg:text-4xl text-2xl bg-white text-black mb-4 lg:w-[360px] text-center font-bold rounded-full py-2">+7 (963) 069 66 99</div>
             <div class = "lg:text-4xl text-2xl bg-white text-black lg:w-[360px] text-center font-bold rounded-full py-2 mb-5">+7 (3452) 617-213</div>
-            <div class = "lg:text-4xl text-2xl bg-[#00ccff] text-white lg:w-[360px] text-center rounded-full py-2 hover:opacity-90 transition-opacity cursor-pointer">Заказать звонок</div>
+            <div @click = "openModal" class = "lg:text-4xl text-2xl bg-[#00ccff] text-white lg:w-[360px] text-center rounded-full py-2 hover:opacity-90 transition-opacity cursor-pointer">Заказать звонок</div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <ModalVue :isOpen="isOpen" @close="closeModal"/>
 </template>
 
-<script>
+<script setup>
+import { ref } from 'vue'
+import ModalVue from './Modal.vue'
+
+const isOpen = ref(false)
+
+function closeModal() {
+  isOpen.value = false
+}
+function openModal() {
+  isOpen.value = true
+}
 </script>
 
 <style></style>

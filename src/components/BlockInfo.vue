@@ -6,10 +6,10 @@
     <div
       class="bg-[url('/img/Fon1.jpg')] bg-center bg-no-repeat lg:bg-[length:100%_calc(80vh-98.40px)] bg-[length:100%_100%] text-white lg:h-[calc(78vh-98.40px)]"
     >
-      <div class="container mx-auto px-4 lg:py-20 pt-10 pb-[150px] z-10">
+      <div class="relative container mx-auto px-4 lg:py-20 pt-10 pb-[150px] z-10">
         <div class="lg:grid lg:grid-cols-[230px_500px_1fr]">
           <div class="lg:w-[230px]"></div>
-          <div class="lg:text-left text-center relative z-10">
+          <div class="lg:text-left text-center">
             <p class="text-3xl lg:text-4xl font-medium leading-tight mb-5 uppercase">
               Прокат сноубордов горных лыж
             </p>
