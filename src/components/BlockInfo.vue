@@ -4,7 +4,7 @@
       class="absolute lg:bg-[url('/img/U11.png')] w-[100%] bg-no-repeat h-[250px] bg-[length:400px_100%] top-[10%] left-[3%]"
     ></div>
     <div
-      class="bg-[url('/img/Fon1.jpg')] bg-center bg-no-repeat lg:bg-[length:100%_calc(80vh-98.40px)] bg-[length:100%_100%] text-white lg:h-[calc(78vh-98.40px)]"
+      class="bg-[url('/img/Fon1.jpg')] bg-center bg-no-repeat  bg-[length:100%_100%] text-white"
     >
       <div class="relative container mx-auto px-4 lg:py-20 pt-10 pb-[150px] z-10">
         <div class="lg:grid lg:grid-cols-[230px_500px_1fr]">
