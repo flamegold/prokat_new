@@ -7,7 +7,7 @@
       class="bg-[url('/img/Fon1.jpg')] bg-center bg-no-repeat lg:bg-[length:100%_calc(80vh-98.40px)] bg-[length:100%_100%] text-white lg:h-[calc(78vh-98.40px)]"
     >
       <div class="container mx-auto px-4 lg:py-20 pt-10 pb-[150px] z-10">
-        <div class="lg:grid grid-cols-[230px_500px_1fr]">
+        <div class="lg:grid lg:grid-cols-[230px_500px_1fr]">
           <div class="lg:w-[230px]"></div>
           <div class="lg:text-left text-center relative z-10">
             <p class="text-3xl lg:text-4xl font-medium leading-tight mb-5 uppercase">
@@ -39,7 +39,7 @@
               </p>
             </div>
           </div>
-          <div><img class = "w-[600px]" src = "/img/people3.png" /></div>
+          <div><img class = "hidden lg:block w-[600px]" src = "/img/people3.png" /></div>
         </div>
       </div>
     </div>
