@@ -47,7 +47,7 @@
       class="absolute lg:bg-[url('/img/U6.png')] w-[400px] bg-no-repeat h-[200px] bg-[length:350px_100%] bottom-[30%] left-0"
     ></div>
     <div
-      class="z-20 absolute lg:bg-[url('/img/people2.png')] w-[300px] bg-no-repeat h-[300px] bg-[length:250px_100%] bottom-[0] right-[0]"
+      class="z-20 absolute lg:bg-[url('/img/people4.png')] w-[200px] bg-no-repeat h-[350px] bg-[length:100%_100%] bottom-[0%] right-[5%]"
     ></div>
   </div>
 </template>

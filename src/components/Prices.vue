@@ -19,7 +19,7 @@
             <div
               class="m-[6px] lg:border lg:px-10 py-5 border-white text-center flex flex-col gap-1 font-medium"
             >
-              <div class="text-white lg:text-6xl text-5xl">500</div>
+              <div class="text-white lg:text-6xl text-5xl">600</div>
               <div class="lg:text-xl font-bold">рублей/день</div>
               <div class="lg:text-lg text-white">будни</div>
               <div class="flex justify-center gap-2 mt-2">
@@ -34,7 +34,7 @@
             <div
               class="m-[6px] lg:border lg:px-10 py-5 border-white text-center flex flex-col gap-1 font-medium"
             >
-              <div class="text-white lg:text-6xl text-5xl">600</div>
+              <div class="text-white lg:text-6xl text-5xl">700</div>
               <div class="lg:text-xl font-bold">рублей/день</div>
               <div class="lg:text-lg text-white">выходные</div>
               <div class="flex justify-center gap-2 mt-2">
@@ -48,7 +48,7 @@
             <div
               class="m-[6px] lg:border lg:px-10 py-5 border-white text-center flex flex-col gap-1 font-medium"
             >
-              <div class="text-white lg:text-6xl text-5xl">2500</div>
+              <div class="text-white lg:text-6xl text-5xl">3000</div>
               <div class="lg:text-xl font-bold">рублей</div>
               <div class="lg:text-lg text-white">неделя</div>
               <div class="flex justify-center gap-2 mt-2">
@@ -61,9 +61,6 @@
         </div>
       </div>
     </div>
-    <div
-      class="z-20 absolute lg:bg-[url('/img/Foto1.png')] w-[400px] bg-no-repeat h-[400px] bg-[length:400px_100%] bottom-0 right-0"
-    ></div>
   </div>
 </template>
 

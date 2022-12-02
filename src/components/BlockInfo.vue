@@ -39,7 +39,7 @@
               </p>
             </div>
           </div>
-          <div><img class = "hidden lg:block w-[600px]" src = "/img/people3.png" /></div>
+          <div><img class = "hidden lg:block w-[600px]" src = "/img/Foto1.png" /></div>
         </div>
       </div>
     </div>

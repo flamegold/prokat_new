@@ -25,7 +25,7 @@
             >
             <div class="text-black lg:text-3xl  uppercase text-2xl ">Шлем</div>
             <div>
-              <div class="text-[#1172d9] lg:text-5xl font-bold text-3xl">100</div>
+              <div class="text-[#1172d9] lg:text-5xl font-bold text-3xl">200</div>
               <div class="lg:text-xl font-bold">рублей/сутки</div>
             </div>
             </div>
@@ -36,7 +36,7 @@
             >
             <div class="text-black lg:text-3xl uppercase text-2xl ">Маска</div>
             <div>
-              <div class="text-[#1172d9] lg:text-5xl font-bold text-3xl">100</div>
+              <div class="text-[#1172d9] lg:text-5xl font-bold text-3xl">200</div>
               <div class="lg:text-xl font-bold">рублей/сутки</div>
             </div>
             </div>
@@ -47,7 +47,7 @@
             >
             <div class="text-black lg:text-3xl uppercase text-2xl ">Чехол</div>
             <div>
-              <div class="text-[#1172d9] lg:text-5xl font-bold text-3xl">100</div>
+              <div class="text-[#1172d9] lg:text-5xl font-bold text-3xl">200</div>
               <div class="lg:text-xl font-bold">рублей/сутки</div>
             </div>
             </div>
@@ -91,7 +91,7 @@
             >
             <div class="text-black lg:text-3xl text-2xl uppercase">Рации</div>
             <div>
-              <div class="text-[#1172d9] lg:text-5xl text-3xl font-bold">100</div>
+              <div class="text-[#1172d9] lg:text-5xl text-3xl font-bold">200</div>
               <div class="lg:text-xl font-bold">рублей/сутки</div>
             </div>
           </div>
@@ -102,8 +102,8 @@
     <div
       class="absolute lg:bg-[url('/img/U4.png')] w-[400px] bg-no-repeat h-[179px] bg-[length:391px_100%] bottom-[10%] right-0"
     ></div>
-    <div
-      class="absolute lg:bg-[url('/img/people4.png')] w-[200px] bg-no-repeat h-[350px] bg-[length:100%_100%] bottom-[13%] left-[6%]"
+        <div
+      class="z-20 absolute lg:bg-[url('/img/people2.png')] w-[350px] bg-no-repeat h-[350px] bg-[length:300px_100%] bottom-[13%] left-[4%]"
     ></div>
   </div>
 </template>
