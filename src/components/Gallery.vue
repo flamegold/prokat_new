@@ -27,18 +27,6 @@
           },
         }">
           <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/1.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/2.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add]  bg-[url('/img/gallery/3.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/4.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/5.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/6.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
             class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/7.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
           <swiper-slide
             class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/8.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
