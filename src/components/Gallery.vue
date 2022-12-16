@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="flex justify-center text-center">
-        <swiper :modules="modules" :pagination="{ clickable: true }" :slides-per-view="1" :breakpoints="{
+        <swiper :modules="modules" navigation :pagination="{ clickable: true }" :slides-per-view="1" :breakpoints="{
           '640': {
             slidesPerView: 1,
           },
@@ -103,10 +103,11 @@
 </template>
 
 <script>
-import SwiperClass, { Pagination } from 'swiper'
+import SwiperClass, { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
 import 'swiper/css'
 import 'swiper/css/pagination'
+import 'swiper/css/navigation'
 
 export default {
   components: {
@@ -115,7 +116,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Pagination]
+      modules: [Navigation, Pagination]
     }
   }
 }
