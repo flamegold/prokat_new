@@ -24,4 +24,6 @@ import ContactsVue from './components/Contacts.vue'
 import FooterVue from './components/Footer.vue'
 </script>
 
-<style></style>
+<style>
+
+</style>
