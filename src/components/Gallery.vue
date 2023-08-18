@@ -8,7 +8,7 @@
     <div class="container mx-auto px-4 pb-[150px]">
       <div class="lg:flex justify-center items-center mb-7">
         <div class="text-center">
-          <p class="text-4xl font-bold leading-tight mb-5 uppercase">
+          <p class="text-6xl font-bold leading-tight mb-5 uppercase text-white">
             Фотогалерея
           </p>
         </div>
@@ -19,74 +19,55 @@
             slidesPerView: 1,
           },
           '768': {
-            slidesPerView: 2,
+            slidesPerView: 1,
           },
           '1024': {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 50,
           },
         }">
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/7.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/8.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/9.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/10.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/11.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/12.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/13.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/14.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/15.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/16.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/17.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/18.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/19.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/20.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/21.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/23.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/24.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/25.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/26.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/27.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/28.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/30.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/31.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/35.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/36.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
-          <swiper-slide
-            class="rounded border-2 border-[#1e7add] bg-[url('/img/gallery/37.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[300px]"></swiper-slide>
+          <swiper-slide>
+            <div class="grid grid-cols-4 grid-rows-2 gap-4">
+              <div class = "row-start-1 row-end-2 col-start-1 col-end-3">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+              <div class = "row-start-1 row-end-2 col-start-3 col-end-5">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+              <div class = "row-start-2 row-end-3 col-start-1 col-end-2">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+              <div class = "row-start-2 row-end-3 col-start-2 col-end-3">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+              <div class = "row-start-2 row-end-3 col-start-3 col-end-5">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="grid grid-cols-4 grid-rows-2 gap-4">
+              <div class = "row-start-1 row-end-2 col-start-1 col-end-3">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+              <div class = "row-start-1 row-end-2 col-start-3 col-end-5">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+              <div class = "row-start-2 row-end-3 col-start-1 col-end-2">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+              <div class = "row-start-2 row-end-3 col-start-2 col-end-3">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+              <div class = "row-start-2 row-end-3 col-start-3 col-end-5">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[400px]"></div>
+              </div>
+            </div>
+          </swiper-slide>
+
         </swiper>
       </div>
     </div>
-  </div>
-  <div
-    class="absolute lg:bg-[url('/img/U6.png')] w-[400px] bg-no-repeat h-[200px] bg-[length:350px_100%] bottom-[30%] left-0">
-  </div>
-  <div
-    class="z-20 absolute lg:bg-[url('/img/people4.png')] w-[200px] bg-no-repeat h-[350px] bg-[length:100%_100%] bottom-[0%] right-[5%]">
   </div>
 </template>
 
@@ -111,5 +92,6 @@ export default {
 </script>
 
 <style>
+
 
 </style>

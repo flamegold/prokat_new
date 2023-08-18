@@ -1,35 +1,52 @@
 <template>
-  <div class="bg-gradient-to-r from-[#1172d9] to-[#09386c] text-white">
-    <div class="container mx-auto px-4">
-      <div class="flex py-4 justify-between items-center flex-nowrap lg:flex-row flex-col md:flex-row">
-        <div
-          class="flex md:justify-between items-center lg:gap-8 md:gap-2 gap-2 md:flex-col lg:flex-row flex-col lg:w-auto w-[100%]">
-          <div>
-            <a href="/"><img class="lg:w-[200px] w-[300px]" src="/img/logo.jpg" alt="" srcset="" /></a>
-          </div>
-          <div class="uppercase text-lg whitespace-nowrap">
-            Сервис проката зимнего снаряжения
-          </div>
+  <div class="bg-black text-white py-4 ">
+    <div class="container flex justify-between items-center mx-auto ">
+      <div class="flex flex-1 justify-between items-center">
+        <div class = "flex">
+          <div class="flex py-4 justify-center items-center flex-nowrap gap-2">
+        <a href="https://vk.com/enottmn"><svg xmlns="http://www.w3.org/2000/svg"
+            class="text-[#00CCFF] icon icon-tabler icon-tabler-brand-vk hover:scale-[1.2] transition-transform cursor-pointer"
+            width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M14 19h-4a8 8 0 0 1 -8 -8v-5h4v5a4 4 0 0 0 4 4h0v-9h4v4.5l.03 -.004a4.531 4.531 0 0 0 3.97 -4.496h4l-.342 1.711a6.858 6.858 0 0 1 -3.658 4.789h0a5.34 5.34 0 0 1 3.566 4.111l.434 2.389h0h-4a4.531 4.531 0 0 0 -3.97 -4.496v4.5z">
+            </path>
+          </svg></a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+            class="text-[#00CCFF] icon icon-tabler icon-tabler-brand-whatsapp hover:scale-[1.2] transition-transform cursor-pointer"
+            width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+            <path
+              d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1">
+            </path>
+          </svg></a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+            class="text-[#00CCFF] icon icon-tabler icon-tabler-brand-telegram hover:scale-[1.2] transition-transform cursor-pointer"
+            width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
+          </svg></a>
+      </div>
         </div>
-        <div class="flex items-center lg:gap-8 gap-2 md:flex-col lg:flex-row flex-col lg:w-auto w-[100%] justify-end">
-          <div class="font-medium text-3xl py-2 lg:py-0 lg:text-lg flex items-center gap-2"><svg
-              xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="20" height="20"
-              viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-              stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path
-                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
-              </path>
-            </svg>+7 693 069 66 99</div>
-          <div @click="openModal"
-            class="uppercase bg-[#00ccff] px-4 py-2 rounded-full hover:opacity-90 transition-opacity cursor-pointer whitespace-nowrap md:w-auto lg:w-auto w-[100%] text-center">
-            Заказать звонок
-          </div>
+        <div><a class="text-[20px]" href = "#">Цены</a></div>
+        <div><a class="text-[20px]" href = "#">Команда</a></div>
+      </div>
+      <div class = "grow-0 lg:px-[50px] px-[100px]"><img src="/img/logo.svg"></div>
+      <div class="flex flex-1 justify-between items-center">
+        <div><a class="text-[20px]" href = "#">Как добраться?</a></div>
+        <div><a class="text-[20px]" href = "#">F.A.Q</a></div>
+        <div class="relative">
+          <span class="before:content-[url(/img/phone.svg)] left-[-40px] absolute"></span>
+          <div class="text-2xl">+7 (3452) 61-72-13</div>
+          <span class="before:content-['прием_звонков_с_9:00_до_21:00'] absolute text-[14px] text-[#00CCFF]"></span>
         </div>
       </div>
     </div>
   </div>
-  <ModalVue :isOpen="isOpen" @close="closeModal" />
 </template>
 
 <script setup>
@@ -37,7 +54,6 @@ import { ref } from 'vue'
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import { ExclamationTriangleIcon } from '@heroicons/vue/24/outline'
 import axios from 'axios'
-import ModalVue from './Modal.vue'
 
 const isOpen = ref(false)
 

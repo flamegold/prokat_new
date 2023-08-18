@@ -41,9 +41,6 @@
       </div>
     </div>
   </div>
-  <div
-    class="absolute lg:bg-[url('/img/U6.png')] w-[400px] bg-no-repeat h-[200px] bg-[length:350px_100%] bottom-[30%] left-0">
-  </div>
 </template>
 
 <script setup></script>

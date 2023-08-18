@@ -16,20 +16,28 @@
     "@fortawesome/vue-fontawesome": "^3.0.2",
     "@headlessui/vue": "^1.7.4",
     "@heroicons/vue": "^2.0.13",
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-grid": "^0.4.1",
     "@splidejs/vue-splide": "^0.6.12",
+    "@vueform/slider": "^2.1.7",
     "axios": "^1.2.0",
-    "swiper": "^8.4.5",
+    "swiper": "^8.4.7",
     "vue": "^3.2.41",
     "vue-awesome-swiper": "^5.0.1",
     "vue-axios": "^3.5.2",
+    "vue-grid-swiper": "^0.1.2",
     "vue-resource": "^1.5.3",
     "vue-the-mask": "^0.11.1",
-    "vue-unicons": "^2.1.0"
+    "vue-unicons": "^2.1.0",
+    "vue3-carousel": "^0.3.1",
+    "vue3-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
+    "prettier": "^3.0.2",
+    "prettier-plugin-tailwindcss": "^0.5.3",
     "tailwindcss": "^3.2.4",
     "vite": "^3.2.3"
   }

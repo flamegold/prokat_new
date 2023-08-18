@@ -1,47 +1,33 @@
 <template>
   <div class="relative overflow-hidden">
-    <div
-      class="absolute lg:bg-[url('/img/U11.png')] w-[100%] bg-no-repeat h-[250px] bg-[length:400px_100%] top-[10%] left-[3%]">
-    </div>
+
   </div>
-  <div class="bg-[url('/img/Fon1.jpg')] bg-center bg-no-repeat  bg-[length:100%_100%] text-white">
-    <div class="relative container mx-auto px-4 lg:py-20 pt-10 pb-[150px] z-10">
-      <div class="lg:grid lg:grid-cols-[230px_500px_1fr]">
-        <div class="lg:w-[230px]"></div>
-        <div class="lg:text-left text-center">
-          <p class="text-3xl lg:text-4xl font-medium leading-tight mb-5 uppercase">
-            Прокат сноубордов горных лыж
-          </p>
-          <p class="text-3xl lg:text-4xl font-medium leading-tight mb-5 uppercase">
-            Прокат и продажа снаряжения
-          </p>
-          <p class="text-3xl lg:text-4xl font-medium leading-tight uppercase mb-5">
-            Сервис
-          </p>
-          <p class="lg:text-xl text-lg font-medium leading-tight mb-2 lg:mb-0">
-            Адрес г.Тюмень, ул. Республики,137
-          </p>
-          <p class="lg:text-lg font-normal leading-tight">
-            (на пересечении Республики и Холодильной)
-          </p>
-          <p class="lg:text-lg font-normal leading-tight mb-5 lg:mb-10">
-            Вход со обратной стороны здания
-          </p>
-          <div class="border-2 w-[230px] text-center rounded py-3 lg:mx-0 mx-auto">
-            <p class="text-2xl font-normal leading-tight uppercase">
-              Время работы
-            </p>
-            <p class="text-xl font-normal leading-tight uppercase">
-              с 10:00 до 21:00
-            </p>
-          </div>
+  <div class="text-white pb-[200px]">
+    <div class="container px-[170px] bg-[url('/img/enot_p1.png')] h-[1700px] bg-center bg-no-repeat  bg-[length:100%_100%] top-[101px] relative mx-auto z-10">
+      <div class = "text-center pt-[100px] uppercase leading-[190px] text-9xl font-bold font-ag">Прокат</div>
+      <div class = "text-center uppercase text-6xl leading-[90px] font-bold">
+        <div class = "flex justify-center gap-10">
+          <div class="font-ag">Питбайков</div>
+          <div class = "font-ag">Эндуро</div>
         </div>
-        <div><img class="hidden lg:block w-[500px]" src="/img/36.png" /></div>
+        <div class = "flex justify-center font-ag">Квадроциклов</div>
+      </div>
+      <div class = "flex relative pt-[100px] justify-between">
+        <div><img src="/img/light.svg" alt="light" srcset=""></div>
+        <div><img src="/img/medium.svg" alt="medium" srcset=""></div>
+        <div><img src="/img/hard.svg" alt="hard" srcset=""></div>
+      </div>
+      <div class = "relative pl-[60px] top-[150px]">
+        <span class="before:content-[url(/img/arrow.svg)] left-[-20px] top-[20px] absolute"></span>
+        <div class = "text-4xl uppercase">Сопровождение<br>гида-инструктора</div>
+        <span class="before:content-[url(/img/arrow.svg)] left-[-20px] top-[170px] absolute"></span>
+        <div class = "text-4xl uppercase pt-[50px]">Внедорожное<br>путешествие</div>
+      </div>
+      <div class = "relative top-[550px] flex gap-[7em]">
+        <button class = "text-xl uppercase font-bold bg-[#B5F602] px-[60px] text-black py-[15px] rounded-full">Записаться</button>
+        <button class = "text-xl uppercase font-bold text-[#B5F602] rounded-full border-2 border-[#B5F602] bg-[#000] bg-opacity-60 py-[15px] px-[60px]">Фотогалерея</button>
       </div>
     </div>
-  </div>
-  <div
-    class="absolute lg:bg-[url('/img/U2.png')] w-[300px] bg-no-repeat h-[356px] bg-[length:280px_100%] bottom-[35%] right-0">
   </div>
 </template>
 

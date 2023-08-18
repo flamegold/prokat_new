@@ -1,14 +1,19 @@
 <template>
-  <div class="relative bg-[#1172d9]">
-    <div class="bg-[url('/img/Fon3.jpg')] bg-center bg-no-repeat bg-[length:100%_102%] ">
-      <div class="container mx-auto px-4 pb-[150px] ">
-        <div class="relative z-10 mx-auto lg:w-[1200px] bg-white h-[200px] lg:h-[500px] border-4 border-sky-300">
-
+  <div class="relative">
+    <div class="">
+      <div class="container mx-auto pb-[150px] ">
+        <div class="lg:flex justify-center items-center mb-7">
+        <div class="text-center">
+          <h2 class="text-6xl font-extrabold leading-tight mb-5 uppercase text-white">
+            Команда
+          </h2>
+        </div>
+        </div>
+        <div class="p-1 relative rounded-2xl from-[#C8258D]  to-[#1096DC] bg-gradient-to-r z-10 mx-auto lg:w-[100%] h-[200px] lg:h-[500px]">
+          <div class="rounded-2xl bg-black lg:w-[100%] h-[100%]">
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="absolute lg:bg-[url('/img/U4.png')] w-[400px] bg-no-repeat h-[179px] bg-[length:391px_100%] bottom-[15%] right-0">
     </div>
   </div>
 </template>

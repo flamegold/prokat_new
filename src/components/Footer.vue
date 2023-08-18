@@ -1,18 +1,41 @@
 <template>
-  <div class="bg-gradient-to-r from-[#1172d9] to-[#09386c] text-white">
+  <div class="bg-[#1A1A1A] pt-20 pb-20 text-white">
     <div class="container mx-auto px-4">
-      <div class="flex py-4 justify-center items-center flex-nowrap gap-3">
-        <a href="https://vk.com/enottmn"><svg xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-vk hover:scale-[1.2] transition-transform cursor-pointer"
+      <div class = "flex gap-40 items-center">
+        <div><img src="/img/logo.svg"></div>
+        <div>
+          <ul>
+            <li class = "uppercase mb-2"><a href="#" class = "hover:text-[#0CF;]">Главная</a></li>
+            <li class = "uppercase mb-2"><a href="#prices" class = "hover:text-[#0CF;]">Цены</a></li>
+            <li class = "uppercase mb-2"><a href="#team" class = "hover:text-[#0CF;]">Команда</a></li>
+            <li class = "uppercase mb-2"><a href="#faq" class = "hover:text-[#0CF;]">FAQ</a></li>
+            <li class = "uppercase mb-2"><a href="#contacts" class = "hover:text-[#0CF;]">Как добраться?</a></li>
+            <li class = "uppercase"><a href="#gallery" class = "hover:text-[#0CF;]">Галерея</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class = "flex items-center gap-5 mb-2">
+              <a href="https://vk.com/enottmn"><svg xmlns="http://www.w3.org/2000/svg"
+            class="text-[#00CCFF] icon icon-tabler icon-tabler-brand-vk cursor-pointer"
             width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
             stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path
               d="M14 19h-4a8 8 0 0 1 -8 -8v-5h4v5a4 4 0 0 0 4 4h0v-9h4v4.5l.03 -.004a4.531 4.531 0 0 0 3.97 -4.496h4l-.342 1.711a6.858 6.858 0 0 1 -3.658 4.789h0a5.34 5.34 0 0 1 3.566 4.111l.434 2.389h0h-4a4.531 4.531 0 0 0 -3.97 -4.496v4.5z">
             </path>
-          </svg></a>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-whatsapp hover:scale-[1.2] transition-transform cursor-pointer"
+          </svg></a> <span>prokat_enot_tmn</span></li>
+          <li class = "flex items-center gap-5 mb-2">
+              <a href="https://vk.com/enottmn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"  class="icon icon-tabler icon-tabler-brand-instagram text-[#00CCFF]" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+   <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+   <path d="M16.5 7.5l0 .01"></path>
+</svg></a> <span>prokat_enot_tmn</span></li>
+          <li class = "flex items-center gap-5 mb-2">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+            class="text-[#00CCFF] icon icon-tabler icon-tabler-brand-whatsapp cursor-pointer"
             width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
             stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -20,14 +43,26 @@
             <path
               d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1">
             </path>
-          </svg></a>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-telegram hover:scale-[1.2] transition-transform cursor-pointer"
+          </svg></a> <span>prokat_enot_tmn</span></li>
+          <li class = "flex items-center gap-5 mb-2">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+            class="text-[#00CCFF] icon icon-tabler icon-tabler-brand-telegram cursor-pointer"
             width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
             stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
-          </svg></a>
+          </svg></a><span>prokat_enot_tmn</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="relative">
+          <span class="before:content-[url(/img/phone.svg)] left-[-40px] w-[20px] h-[20px] absolute"></span>
+          <div class="text-2xl mb-2">+7 (3452) 61-72-13</div>
+          <span class="before:content-[url(/img/phone.svg)] left-[-40px] w-[20px] h-[20px] absolute"></span>
+          <div class="text-2xl">+7 (963) 069-66-99</div>
+          <span class="before:content-['прием_звонков_с_9:00_до_21:00'] absolute text-[14px] text-[#00CCFF]"></span>
+        </div>
+        </div>
       </div>
     </div>
   </div>
