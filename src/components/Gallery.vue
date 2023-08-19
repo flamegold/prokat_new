@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <div class="container mx-auto px-4 pb-[150px]">
+      <a name="gallery"></a>
       <div class="lg:flex justify-center items-center mb-7">
         <div class="text-center">
           <p class="text-5xl font-bold leading-tight mb-5 uppercase text-white">

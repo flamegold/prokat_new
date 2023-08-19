@@ -2,6 +2,7 @@
   <div class="relative">
     <div class="bg-[url('/img/Fon3.jpg')] bg-center bg-no-repeat  bg-[length:100%_102%]">
       <div class="container mx-auto lg:pb-[150px] pb-10">
+        <a name="faq"></a>
         <div class="lg:flex justify-center items-center mb-7">
           <div class="text-center">
             <h2 class="lg:text-4xl text-2xl font-extrabold leading-tight mb-5 text-white">

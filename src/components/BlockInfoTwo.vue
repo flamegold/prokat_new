@@ -31,7 +31,7 @@
         <div class="lg:text-xl uppercase text-[#00CCFF]">
           Запись по телефону
         </div>
-        <div class="text-xl text-black rounded-full px-[50px] py-[10px] font-bold bg-[#00CCFF]">
+        <div class="text-3xl text-black rounded-full px-[50px] py-[10px] font-bold bg-[#00CCFF]">
           +7 (3452) 61-72-13
         </div>
       </div>

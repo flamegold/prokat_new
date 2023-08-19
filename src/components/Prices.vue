@@ -2,6 +2,7 @@
 
   <div class="/bg-[url('/img/fon_2.png')] bg-center bg-no-repeat bg-[length:100%_100%]">
     <div class="container mx-auto lg:pb-[150px] pb-10 py-4">
+      <a name="prices"></a>
       <div class="lg:flex justify-center items-center mb-5">
         <div class="text-center">
           <h2 class="lg:text-5xl text-3xl font-extrabold leading-tight uppercase text-white">
@@ -81,7 +82,7 @@
             уникальная возможность подарить незабываемые
             впечатления. Только представьте это трепетное чувство - 
             оказаться за рулём.</p>
-          <button class="lg:text-xl lg:py-6 py-4 bg-[#B5F602] rounded-full uppercase font-bold mt-[20px] w-[100%]">Заказать сертификат</button>
+          <button @click="openModal" class="lg:text-xl lg:py-4 py-4 bg-[#B5F602] rounded-full uppercase font-bold mt-[20px] w-[100%]">Заказать сертификат</button>
         </div>
         <div class = "row-start-2 row-end-3 col-start-2 col-end-3 bg-[#1E1D1F] shadow-lg shadow-[#222123]/50 rounded-2xl lg:py-8 lg:px-12">
           <div class="bg-[url('/img/prices_2.png')] bg-[length:100%_100%] lg:h-[100%] h-[200px]"></div>
@@ -89,9 +90,26 @@
       </div>
     </div>
   </div>
+  <ModalVue :isOpen="isOpen" @close="closeModal" name="Заказать сертификат" />
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+import ModalVue from './Modal.vue'
+
+const isOpen = ref(false)
+const name = ref('');
+
+function closeModal() {
+  isOpen.value = false
+}
+
+
+function openModal() {
+  isOpen.value = true
+}
+
+</script>
 
 <style>
 

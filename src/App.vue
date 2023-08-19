@@ -8,7 +8,7 @@
     <PricesVue />
     <VideosVue />
     <ContactsVue />
-    <Faq />
+    <FaqVue />
     <GalleryVue />
     <FooterVue />
   </div>
@@ -21,8 +21,7 @@ import HeaderVue from './components/Header.vue'
 import BlockInfoVue from './components/BlockInfo.vue'
 import BlockInfoVueTwo from './components/BlockInfoTwo.vue'
 import PricesVue from './components/Prices.vue'
-import Faq from './components/Faq.vue'
-import ServicesVue from './components/Services.vue'
+import FaqVue from './components/Faq.vue'
 import VideosVue from './components/Videos.vue'
 import GalleryVue from './components/Gallery.vue'
 import ContactsVue from './components/Contacts.vue'

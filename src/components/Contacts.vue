@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <div class="container mx-auto lg:pb-[150px] pb-10">
+      <a name="contacts"></a>
       <div class="lg:flex justify-center items-center mb-7">
         <div class="text-center">
           <h2 class="lg:text-5xl text-3xl font-extrabold leading-tight mb-5 uppercase text-white">
@@ -11,7 +12,7 @@
       <div class="relative z-10 lg:grid text-white gap-[30px] lg:grid-cols-[1fr_550px]">
         <div class="p-[6px] relative rounded-2xl from-[#13DDB2]  to-[#B5F602] bg-gradient-to-r h-[400px] lg:h-[100%] mb-5">
           <iframe class = "rounded-2xl"
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3A864e2625c01056c15891bd74d68eec2e3bf6238c3a4aacb23728730c9b6671c8&amp;source=constructor"
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A30c2c26a81776704c2e532df7e70bd9ab583c8c0c84d06ba6caa2fd66057c536&amp;source=constructor"
             width="100%" height="100%" frameborder="0"></iframe>
         </div>
         <div class="flex flex-col justify-end bg-[#1E1D1F] lg:pl-24 pl-8 lg:py-12 py-8 rounded-2xl shadow-2xl shadow-[#222123]/50">

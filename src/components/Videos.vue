@@ -2,6 +2,7 @@
   <div class="relative">
     <div class="">
       <div class="container mx-auto lg:pb-[150px] pb-10 ">
+        <a name="team"></a>
         <div class="lg:flex justify-center items-center mb-7">
         <div class="text-center">
           <h2 class="lg:text-5xl text-3xl font-extrabold leading-tight mb-5 uppercase text-white">
