@@ -35,7 +35,7 @@
         <div><a class="" href = "#prices">Цены</a></div>
         <div><a class="" href = "#team">Команда</a></div>
       </div>
-      <div class = "grow-0 lg:pl-20 lg:pr-10"><img src="/img/logo.svg"></div>
+      <div class = "grow-0 lg:pl-20 lg:pr-10"><img src="/img/logo.svg" class = "lg:w-[100%] w-[70%]"></div>
       <div class="flex flex-1 lg:justify-between justify-end">
         <div class = "lg:block hidden"><a class="" href = "#contacts">Как добраться?</a></div>
         <div class = "lg:block hidden"><a class="" href = "#faq">F.A.Q</a></div>

@@ -28,8 +28,8 @@
         </div>
       </div>
       <div class = "relative lg:mt-[450px] mt-8 lg:pb-[50px] pb-6 flex lg:flex-row flex-col lg:gap-4 gap-4">
-        <button @click="openModal" class = "uppercase font-bold bg-[#B5F602] px-[60px] text-black py-[15px] rounded-full">Записаться</button>
-        <a href = "#gallery" class = "uppercase font-bold text-[#B5F602] rounded-full border-2 border-[#B5F602] bg-[#000] bg-opacity-60 py-[15px] px-[60px]">Фотогалерея</a>
+        <button @click="openModal" class = "text-center uppercase font-bold bg-[#B5F602] px-[60px] text-black py-[15px] rounded-full">Записаться</button>
+        <a href = "#gallery" class = "text-center uppercase font-bold text-[#B5F602] rounded-full border-2 border-[#B5F602] bg-[#000] bg-opacity-60 py-[15px] px-[60px]">Фотогалерея</a>
       </div>
     </div>
   </div>

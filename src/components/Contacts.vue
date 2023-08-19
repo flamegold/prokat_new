@@ -1,6 +1,7 @@
 <template>
-  <div class="">
-    <div class="container mx-auto lg:pb-[150px] pb-10">
+  <div class="overflow-hidden relative">
+    <div class = "before:content-[url('/img/fon_2.png')] bg-cover bg-center bg-no-repeat bg-[length:100%_100%] absolute opacity-10"></div>
+    <div class="container mx-auto py-10">
       <a name="contacts"></a>
       <div class="lg:flex justify-center items-center mb-7">
         <div class="text-center">
