@@ -1,10 +1,10 @@
 <template>
   <div class="relative">
     <div class="">
-      <div class="container mx-auto pb-[150px] ">
+      <div class="container mx-auto lg:pb-[150px] pb-10 ">
         <div class="lg:flex justify-center items-center mb-7">
         <div class="text-center">
-          <h2 class="text-6xl font-extrabold leading-tight mb-5 uppercase text-white">
+          <h2 class="lg:text-5xl text-3xl font-extrabold leading-tight mb-5 uppercase text-white">
             Команда
           </h2>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black text-white py-4 ">
-    <div class="container flex justify-between items-center mx-auto ">
-      <div class="flex flex-1 justify-between items-center">
+    <div class="container flex justify-between items-center mx-auto lg:px-0 px-8 ">
+      <div class="lg:flex hidden flex-1 justify-between items-center">
         <div class = "flex">
           <div class="flex py-4 justify-center items-center flex-nowrap gap-2">
         <a href="https://vk.com/enottmn"><svg xmlns="http://www.w3.org/2000/svg"
@@ -32,19 +32,25 @@
           </svg></a>
       </div>
         </div>
-        <div><a class="text-[20px]" href = "#">Цены</a></div>
-        <div><a class="text-[20px]" href = "#">Команда</a></div>
+        <div><a class="" href = "#">Цены</a></div>
+        <div><a class="" href = "#">Команда</a></div>
       </div>
-      <div class = "grow-0 lg:px-[50px] px-[100px]"><img src="/img/logo.svg"></div>
-      <div class="flex flex-1 justify-between items-center">
-        <div><a class="text-[20px]" href = "#">Как добраться?</a></div>
-        <div><a class="text-[20px]" href = "#">F.A.Q</a></div>
-        <div class="relative">
-          <span class="before:content-[url(/img/phone.svg)] left-[-40px] absolute"></span>
+      <div class = "grow-0 lg:pl-20 lg:pr-10"><img src="/img/logo.svg"></div>
+      <div class="flex flex-1 lg:justify-between justify-end">
+        <div class = "lg:block hidden"><a class="" href = "#">Как добраться?</a></div>
+        <div class = "lg:block hidden"><a class="" href = "#">F.A.Q</a></div>
+        <div class="relative lg:block hidden">
+          <span class="before:content-[url(/img/phone.svg)] left-[-40px] lg:top-0 top-3 absolute"></span>
           <div class="text-2xl">+7 (3452) 61-72-13</div>
-          <span class="before:content-['прием_звонков_с_9:00_до_21:00'] absolute text-[14px] text-[#00CCFF]"></span>
+          <span class="before:content-['прием_звонков_с_9:00_до_21:00'] absolute text-sm text-[#00CCFF]"></span>
+        </div>
+        <div class="space-y-2 lg:hidden block">
+          <div class="w-8 h-0.5 bg-gray-600"></div>
+          <div class="w-8 h-0.5 bg-gray-600"></div>
+          <div class="w-8 h-0.5 bg-gray-600"></div>
         </div>
       </div>
+      
     </div>
   </div>
 </template>

@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-[#1A1A1A] pt-20 pb-20 text-white">
-    <div class="container mx-auto px-4">
-      <div class = "flex gap-40 items-center">
-        <div><img src="/img/logo.svg"></div>
+  <div class="bg-[#1A1A1A] lg:pt-20 pt-6 lg:pb-20 pb-6 text-white">
+    <div class="container mx-auto lg:px-4 px-10">
+      <div class = "grid lg:grid-cols-4 grid-cols-1 gap-y-10 justify-center items-center">
+        <div class = "flex justify-center lg:block"><img src="/img/logo.svg"></div>
         <div>
           <ul>
             <li class = "uppercase mb-2"><a href="#" class = "hover:text-[#0CF;]">Главная</a></li>
@@ -13,7 +13,7 @@
             <li class = "uppercase"><a href="#gallery" class = "hover:text-[#0CF;]">Галерея</a></li>
           </ul>
         </div>
-        <div>
+        <div class = "">
           <ul>
             <li class = "flex items-center gap-5 mb-2">
               <a href="https://vk.com/enottmn"><svg xmlns="http://www.w3.org/2000/svg"
@@ -55,12 +55,12 @@
           </ul>
         </div>
         <div>
-          <div class="relative">
-          <span class="before:content-[url(/img/phone.svg)] left-[-40px] w-[20px] h-[20px] absolute"></span>
-          <div class="text-2xl mb-2">+7 (3452) 61-72-13</div>
-          <span class="before:content-[url(/img/phone.svg)] left-[-40px] w-[20px] h-[20px] absolute"></span>
-          <div class="text-2xl">+7 (963) 069-66-99</div>
-          <span class="before:content-['прием_звонков_с_9:00_до_21:00'] absolute text-[14px] text-[#00CCFF]"></span>
+          <div class="relative lg:px-0 px-12">
+          <span class="before:content-[url(/img/phone.svg)] lg:left-[-40px] left-[-0px] w-[20px] h-[20px] absolute"></span>
+          <div class="lg:text-2xl text-xl mb-2">+7 (3452) 61-72-13</div>
+          <span class="before:content-[url(/img/phone.svg)] lg:left-[-40px] left-[-0px] w-[20px] h-[20px] absolute"></span>
+          <div class="lg:text-2xl text-xl">+7 (963) 069-66-99</div>
+          <span class="before:content-['прием_звонков_с_9:00_до_21:00'] absolute text-sm text-[#00CCFF]"></span>
         </div>
         </div>
       </div>
