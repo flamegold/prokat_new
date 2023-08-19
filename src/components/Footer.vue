@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-[#1A1A1A] lg:pt-20 pt-6 lg:pb-20 pb-6 text-white">
+  <div class="bg-[#1A1A1A] lg:pt-20 pt-6 lg:pb-20 pb-10 text-white">
     <div class="container mx-auto lg:px-4 px-10">
-      <div class = "grid lg:grid-cols-4 grid-cols-1 gap-y-10 justify-center items-center">
+      <div class = "grid lg:grid-cols-4 grid-cols-1 gap-y-6 justify-center items-center">
         <div class = "flex justify-center lg:block"><img src="/img/logo.svg"></div>
         <div>
           <ul>
@@ -55,7 +55,7 @@
           </ul>
         </div>
         <div>
-          <div class="relative lg:px-0 px-12">
+          <div class="relative lg:px-0 px-12 lg:py-0 py-4">
           <span class="before:content-[url(/img/phone.svg)] lg:left-[-40px] left-[-0px] w-[20px] h-[20px] absolute"></span>
           <div class="lg:text-2xl text-xl mb-2">+7 (3452) 61-72-13</div>
           <span class="before:content-[url(/img/phone.svg)] lg:left-[-40px] left-[-0px] w-[20px] h-[20px] absolute"></span>

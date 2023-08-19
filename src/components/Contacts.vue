@@ -14,7 +14,7 @@
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A864e2625c01056c15891bd74d68eec2e3bf6238c3a4aacb23728730c9b6671c8&amp;source=constructor"
             width="100%" height="100%" frameborder="0"></iframe>
         </div>
-        <div class="flex flex-col justify-end bg-[#1E1D1F] lg:pl-24 pl-8 py-12 rounded-2xl shadow-2xl shadow-[#222123]/50">
+        <div class="flex flex-col justify-end bg-[#1E1D1F] lg:pl-24 pl-8 lg:py-12 py-8 rounded-2xl shadow-2xl shadow-[#222123]/50">
           <div class = "relative">
             <span class="lg:before:content-[url(/img/arrow.svg)] left-[-60px] top-[7px] absolute"></span>
             <p class="lg:text-2xl text-xl text-[#B5F602] uppercase font-medium leading-tight mb-3">Наш
