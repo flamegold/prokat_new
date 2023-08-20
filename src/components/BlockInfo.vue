@@ -2,7 +2,7 @@
   <div class="relative overflow-hidden">
 
   </div>
-  <div class="text-white lg:pb-[200px] pb-40 container">
+  <div class="text-white lg:pb-[200px] pb-40 pt-10 lg:pt-0 container">
     <div class="lg:px-[170px] px-4 lg:bg-[url('/img/enot_p1.png')] bg-[#000] rounded-2xl lg:h-[1700px] bg-center bg-no-repeat  bg-[length:100%_100%] top-[101px] relative mx-auto z-10">
       <div class = "text-center lg:pt-[100px] pt-10 uppercase lg:leading-[190px] lg:text-9xl mb-10 lg:mb-0 text-5xl font-bold font-ag">Прокат</div>
       <div class = "text-center uppercase lg:text-5xl text-2xl lg:leading-[90px] font-bold">

@@ -1,10 +1,10 @@
 <template>
   <div class="bg-[#1A1A1A] lg:pt-20 pt-6 lg:pb-20 pb-10 text-white">
     <div class="container mx-auto lg:px-4 px-10">
-      <div class = "grid lg:grid-cols-4 grid-cols-1 gap-y-6 justify-center items-center px-10">
+      <div class = "grid lg:grid-cols-4 grid-cols-1 gap-y-6 justify-center items-center lg:px-10">
         <div class = "flex justify-center lg:block"><img src="/img/logo.svg"></div>
         <div>
-          <ul>
+          <ul class = "text-xl lg:text-base">
             <li class = "uppercase mb-2"><a href="#" class = "hover:text-[#0CF;]">Главная</a></li>
             <li class = "uppercase mb-2"><a href="#prices" class = "hover:text-[#0CF;]">Цены</a></li>
             <li class = "uppercase mb-2"><a href="#team" class = "hover:text-[#0CF;]">Команда</a></li>
@@ -14,7 +14,7 @@
           </ul>
         </div>
         <div class = "">
-          <ul>
+          <ul class = "text-xl lg:text-base">
             <li class = "flex items-center gap-5 mb-2">
               <a href="https://vk.com/enottmn"><svg xmlns="http://www.w3.org/2000/svg"
             class="text-[#00CCFF] icon icon-tabler icon-tabler-brand-vk cursor-pointer"
@@ -24,7 +24,7 @@
             <path
               d="M14 19h-4a8 8 0 0 1 -8 -8v-5h4v5a4 4 0 0 0 4 4h0v-9h4v4.5l.03 -.004a4.531 4.531 0 0 0 3.97 -4.496h4l-.342 1.711a6.858 6.858 0 0 1 -3.658 4.789h0a5.34 5.34 0 0 1 3.566 4.111l.434 2.389h0h-4a4.531 4.531 0 0 0 -3.97 -4.496v4.5z">
             </path>
-          </svg></a> <span>prokat_enot_tmn</span></li>
+          </svg></a><span>prokat_enot_tmn</span></li>
           <li class = "flex items-center gap-5 mb-2">
               <a href="https://vk.com/enottmn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"  class="icon icon-tabler icon-tabler-brand-instagram text-[#00CCFF]" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -55,7 +55,7 @@
           </ul>
         </div>
         <div>
-          <div class="relative lg:py-0 py-4 lg:items-end flex flex-col">
+          <div class="relative lg:items-end flex flex-col">
           <div>
           <div class="lg:text-2xl text-xl mb-2 flex gap-4">
             <img src = "/img/phone.svg">
