@@ -17,22 +17,21 @@
           </p>
         </div>
       </div>
-      <div class="relative flex gap-x-10 flex-col lg:flex-row justify-center text-center lg:justify-between lg:px-[100px] xl:px-[250px] md:px-[100px] lg:pt-[50px]">
-        <div class="text-xl text-white">
-          Без категории А
-        </div>
-        <div class="text-xl text-white">
-          Без ограничений по возрасту
-        </div>
-        <div class="text-xl text-white">
-          Без опыта вождения
-        </div>
+      <div class="relative text-xl text-white flex gap-x-10 flex-col lg:flex-row justify-center text-center lg:justify-between lg:px-[10px] xl:px-[150px] md:px-[20px] lg:pt-[50px]">
+          <img src = "/img/stroke.svg" class = "w-[16px] lg:block hidden">
+          <p>Без категории А</p>
+          <img src = "/img/stroke.svg" class = "w-[16px] lg:block hidden">
+          <p>Без ограничений по возрасту</p>
+          <img src = "/img/stroke.svg" class = "w-[16px] lg:block hidden">
+          <p>Без опыта вождения</p>
+          <img src = "/img/stroke.svg" class = "w-[16px] lg:block hidden">
+        
       </div>
       <div class="relative flex flex-col lg:flex-row lg:gap-20 gap-4 justify-center lg:pt-[100px] lg:mt-4 mt-8 items-center">
         <div class="text-2xl uppercase text-[#00CCFF]">
           Запись по телефону
         </div>
-        <div class="lg:text-3xl text-xl text-black rounded-full px-[50px] py-[10px] font-bold bg-[#00CCFF]">
+        <div class="lg:text-3xl text-2xl text-black rounded-full px-[50px] py-[10px] font-bold bg-[#00CCFF]">
           +7 (3452) 61-72-13
         </div>
       </div>
