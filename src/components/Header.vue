@@ -35,16 +35,16 @@
         <div><a class="" href = "#prices">Цены</a></div>
         <div><a class="" href = "#team">Команда</a></div>
       </div>
-      <div class = "grow-0 lg:pl-20 lg:pr-10"><img src="/img/logo.svg" class = "lg:w-[100%] w-[70%]"></div>
-      <div class="flex flex-1 lg:justify-between justify-end">
+      <div class = "grow-0 2xl:pl-10 2xl:pr-10 xl:pl-10 xl:pr-10 lg:pl-5 lg:pr-2 "><img src="/img/logo.svg" class = "lg:w-[100%] w-[70%]"></div>
+      <div class="flex flex-1 xl:gap-20 lg:gap-10 items-center justify-end">
         <div class = "lg:block hidden"><a class="" href = "#contacts">Как добраться?</a></div>
         <div class = "lg:block hidden"><a class="" href = "#faq">FAQ</a></div>
         <div class="relative lg:block hidden">
-          <span class="before:content-[url(/img/phone.svg)] left-[-40px] lg:top-0 top-3 absolute"></span>
+          <span class="xl:before:content-[url(/img/phone.svg)] left-[-40px] lg:top-0 top-3 absolute"></span>
           <div class="text-2xl">+7 (3452) 61-72-13</div>
           <span class="before:content-['прием_звонков_с_9:00_до_21:00'] absolute text-sm text-[#00CCFF]"></span>
         </div>
-        <div class="space-y-2 lg:hidden block" @click="openMenu">
+        <div class="space-y-2 lg:hidden block cursor-pointer" @click="openMenu">
           <div class="w-8 h-0.5 bg-gray-600"></div>
           <div class="w-8 h-0.5 bg-gray-600"></div>
           <div class="w-8 h-0.5 bg-gray-600"></div>
