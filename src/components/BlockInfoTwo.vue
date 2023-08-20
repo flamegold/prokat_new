@@ -17,19 +17,19 @@
           </p>
         </div>
       </div>
-      <div class="relative flex flex-col lg:flex-row justify-center text-center lg:justify-between lg:px-[250px] lg:pt-[50px]">
-        <div class="lg:text-xl text-white">
+      <div class="relative flex gap-x-10 flex-col lg:flex-row justify-center text-center lg:justify-between lg:px-[100px] xl:px-[250px] md:px-[100px] lg:pt-[50px]">
+        <div class="text-xl text-white">
           Без категории А
         </div>
-        <div class="lg:text-xl text-white">
+        <div class="text-xl text-white">
           Без ограничений по возрасту
         </div>
-        <div class="lg:text-xl text-white">
+        <div class="text-xl text-white">
           Без опыта вождения
         </div>
       </div>
       <div class="relative flex flex-col lg:flex-row lg:gap-20 gap-4 justify-center lg:pt-[100px] lg:mt-4 mt-8 items-center">
-        <div class="lg:text-xl uppercase text-[#00CCFF]">
+        <div class="text-2xl uppercase text-[#00CCFF]">
           Запись по телефону
         </div>
         <div class="lg:text-3xl text-xl text-black rounded-full px-[50px] py-[10px] font-bold bg-[#00CCFF]">

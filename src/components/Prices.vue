@@ -15,21 +15,23 @@
           <h3 class="lg:text-2xl text-xl text-center text-white  uppercase font-ag">
           1 час<br>последующие
           </h3>
-          <div class="p-1 rounded-2xl from-[#13DDB2]  to-[#B5F602] bg-gradient-to-r lg:h-[300px] h-auto mt-4">
-            <div class="flex px-4 font-semibold rounded-2xl bg-[#1E1D1F] text-white lg:h-[290px] h-auto w-full py-[30px] lg:text-xl">
-              <div class = "grid lg:grid-cols-[repeat(3,1fr)] grid-cols-1 items-center pb-[10px] gap-x-4 gap-y-2">
+          <div class="p-1 rounded-2xl from-[#13DDB2]  to-[#B5F602] bg-gradient-to-r lg:h-[270px] h-auto mt-4">
+            <div class="flex lg:px-4 px-8 font-semibold rounded-2xl bg-[#1E1D1F] text-white lg:h-[260px] h-auto w-full  py-4 text-xl">
+              <div class = "justify-center items-center flex">
+              <div class = "grid grid-cols-[repeat(3,1fr)] items-center pb-[10px] gap-x-4 gap-y-2">
                 <div>Питбайк</div>
-                <div>1500</div>
+                <div class="text-center">1500</div>
                 <div>1000</div>
                 <div>Эндуро</div>
-                <div>2000</div>
+                <div class="text-center">2000</div>
                 <div>1500</div>
                 <div>Квадрик</div>
-                <div>2000</div>
+                <div class="text-center">2000</div>
                 <div>1500</div>
                 <div>Мотоботы</div>
-                <div>500</div>
+                <div class="text-center">500</div>
                 <div>выезд</div>
+              </div>
             </div>
             </div>
           </div>
@@ -38,26 +40,28 @@
           <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag">
           Абонемент<br>Выгода
           </h3>
-          <div class="p-1 flex rounded-2xl from-[#B5F602]  to-[#C8258D] bg-gradient-to-r lg:h-[300px] h-auto mt-4">
-            <div class="px-4 font-semibold rounded-2xl bg-[#1E1D1F] lg:h-[290px] h-auto text-white w-full py-[10px] text-xl">
+          <div class="p-1 flex rounded-2xl from-[#B5F602]  to-[#C8258D] bg-gradient-to-r lg:h-[270px] h-auto mt-4">
+            <div class="lg:px-4 px-8 font-semibold rounded-2xl bg-[#1E1D1F] lg:h-[260px] h-auto text-white w-full py-4 text-xl flex flex-col items-center justify-center">
+              <div class = "">
               <div class = "text-center pb-[10px] text-[#B5F602]">3 посещения</div>
-              <div class = "grid lg:grid-cols-[repeat(3,1fr)] grid-cols-1 gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
+              <div class = "grid grid-cols-[repeat(3,1fr)] gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
                 <div>Питбайк</div>
-                <div>3500</div>
+                <div class="text-center">3500</div>
                 <div>1000</div>
                 <div>Эндуро</div>
-                <div>5000</div>
+                <div class="text-center">5000</div>
                 <div>1000</div>
               </div>
               <div class = "text-center pb-[10px] text-[#B5F602]">6 посещений</div>
-              <div class = "grid lg:grid-cols-[repeat(3,1fr)] grid-cols-1 gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
+              <div class = "grid grid-cols-[repeat(3,1fr)] gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
                 <div>Питбайк</div>
-                <div>6500</div>
+                <div class="text-center">6500</div>
                 <div>2500</div>
                 <div>Эндуро</div>
-                <div>9500</div>
+                <div class="text-center">9500</div>
                 <div>2500</div>
               </div>
+            </div>
             </div>
           </div>
         </div>
@@ -65,9 +69,10 @@
           <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag">
           Сопровождение<br>гида
           </h3>
-          <div class="p-1 flex rounded-2xl from-[#1096DC]  to-[#C8258D] bg-gradient-to-r lg:h-[300px] h-auto mt-4">
-            <div class="px-4 font-semibold rounded-2xl bg-[#1E1D1F] text-white w-full py-[30px] lg:h-[290px] h-auto text-xl flex justify-center text-center">
-              <div>500 руб.<br>с единицы техники<br>в час</div>
+          <div class="p-1 flex rounded-2xl from-[#1096DC]  to-[#C8258D] bg-gradient-to-r lg:h-[270px] h-auto mt-4">
+            <div class="px-4 font-semibold rounded-2xl bg-[#1E1D1F] text-white w-full py-4 lg:h-[260px] h-auto text-xl flex justify-center text-center">
+              <div class = "flex items-center">
+                <p>500 руб.<br>с единицы техники<br>в час</p></div>
             </div>
           </div>
         </div>

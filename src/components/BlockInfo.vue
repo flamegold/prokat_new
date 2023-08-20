@@ -4,12 +4,24 @@
   </div>
   <div class="text-white lg:pb-[200px] pb-40 container">
     <div class="lg:px-[170px] px-4 lg:bg-[url('/img/enot_p1.png')] bg-[#000] rounded-2xl lg:h-[1700px] bg-center bg-no-repeat  bg-[length:100%_100%] top-[101px] relative mx-auto z-10">
-      <div class = "text-center lg:pt-[100px] pt-10 uppercase lg:leading-[190px] lg:text-8xl mb-10 lg:mb-0 text-5xl font-bold font-ag">Прокат</div>
+      <div class = "text-center lg:pt-[100px] pt-10 uppercase lg:leading-[190px] lg:text-9xl mb-10 lg:mb-0 text-5xl font-bold font-ag">Прокат</div>
       <div class = "text-center uppercase lg:text-5xl text-2xl lg:leading-[90px] font-bold">
-        <div class = "grid lg:grid-cols-2 grid-cols-1 justify-center px-20">
-          <div class="font-ag lg:row-start-1 lg:row-end-2 lg:col-start-1 lg:col-end-2">Питбайков</div>
-          <div class = "font-ag lg:row-start-1 lg:row-end-2 lg:col-start-2 lg:col-end-3">Эндуро</div>
-          <div class = "flex lg:row-start-2 lg:row-end-3 lg:col-start-1 lg:col-end-3 justify-center font-ag">Квадроциклов</div>
+        <div class = "grid lg:grid-cols-2 grid-cols-1 justify-center lg:px-4 xl:px-24 md:px-4">
+          <div class="font-ag lg:row-start-1 lg:row-end-2 lg:col-start-1 lg:col-end-2 relative">
+            <span class="before:content-[''] rounded-full lg:w-4 lg:h-4 w-3 h-3 bg-[#B5F602] lg:left-[-30px] left-0 lg:top-[40%] top-[30%] absolute"></span>
+            <span>Питбайков</span>
+            <span class="after:content-[''] rounded-full lg:w-4 lg:h-4 w-3 h-3 bg-[#B5F602] lg:right-[-30px] right-0 lg:top-[40%] top-[30%] absolute"></span>
+          </div>
+          <div class = "font-ag lg:row-start-1 lg:row-end-2 lg:col-start-2 lg:col-end-3 relative">
+            <span class="before:content-[''] lg:hidden block rounded-full lg:w-4 lg:h-4 w-3 h-3 bg-[#B5F602] left-0 top-[30%] absolute"></span>
+            <span>Эндуро</span>
+            <span class="after:content-[''] rounded-full lg:w-4 lg:h-4 w-3 h-3 bg-[#B5F602] lg:right-[20px] right-0 lg:top-[40%] top-[30%] absolute"></span>
+          </div>
+          <div class = "flex lg:row-start-2 lg:row-end-3 lg:col-start-1 lg:col-end-3 justify-center font-ag relative">
+            <span class="before:content-[''] rounded-full lg:w-4 lg:h-4 w-3 h-3 bg-[#B5F602] lg:left-[70px] left-0 lg:top-[40%] top-[30%] absolute"></span>
+            <span>Квадроциклов</span>
+            <span class="after:content-[''] rounded-full lg:w-4 lg:h-4 w-3 h-3 bg-[#B5F602] lg:right-[70px] right-0 lg:top-[40%] top-[30%] absolute"></span>
+          </div>
         </div>
       </div>
       <div class = "flex lg:flex-row lg:gap-0 gap-10 justify-center flex-col relative lg:pt-[100px] pt-8 lg:justify-between">

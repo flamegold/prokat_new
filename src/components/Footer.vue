@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#1A1A1A] lg:pt-20 pt-6 lg:pb-20 pb-10 text-white">
     <div class="container mx-auto lg:px-4 px-10">
-      <div class = "grid lg:grid-cols-4 grid-cols-1 gap-y-6 justify-center items-center">
+      <div class = "grid lg:grid-cols-4 grid-cols-1 gap-y-6 justify-center items-center px-10">
         <div class = "flex justify-center lg:block"><img src="/img/logo.svg"></div>
         <div>
           <ul>
@@ -55,12 +55,18 @@
           </ul>
         </div>
         <div>
-          <div class="relative lg:px-0 px-12 lg:py-0 py-4">
-          <span class="before:content-[url(/img/phone.svg)] lg:left-[-40px] left-[-0px] w-[20px] h-[20px] absolute"></span>
-          <div class="lg:text-2xl text-xl mb-2">+7 (3452) 61-72-13</div>
-          <span class="before:content-[url(/img/phone.svg)] lg:left-[-40px] left-[-0px] w-[20px] h-[20px] absolute"></span>
-          <div class="lg:text-2xl text-xl">+7 (963) 069-66-99</div>
-          <span class="before:content-['прием_звонков_с_9:00_до_21:00'] absolute text-sm text-[#00CCFF]"></span>
+          <div class="relative lg:py-0 py-4 lg:items-end flex flex-col">
+          <div>
+          <div class="lg:text-2xl text-xl mb-2 flex gap-4">
+            <img src = "/img/phone.svg">
+            <span>+7 (3452) 61-72-13</span>
+          </div>
+          <div class="lg:text-2xl text-xl flex gap-4">
+            <img src = "/img/phone.svg">
+            <span>+7 (963) 069-66-99</span>
+          </div>
+          <span class="text-sm text-[#00CCFF]">прием звонков с 9:00 до 21:00</span>
+        </div>
         </div>
         </div>
       </div>
