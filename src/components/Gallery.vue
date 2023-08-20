@@ -1,7 +1,6 @@
 <template>
-  <div class="">
+  <a name="gallery"></a>
     <div class="container mx-auto px-4 lg:pb-[150px] pb-10">
-      <a name="gallery"></a>
       <div class="lg:flex justify-center items-center mb-7">
         <div class="text-center">
           <p class="text-5xl font-bold leading-tight mb-5 uppercase text-white">
@@ -74,9 +73,7 @@
           </swiper-slide>
         </swiper>
       </div>
-
     </div>
-  </div>
 </template>
 
 <script>

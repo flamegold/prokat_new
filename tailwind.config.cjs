@@ -2,6 +2,11 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    extend: {
+      transitionProperty: {
+        'max-height': 'max-height',
+      },
+    },
     fontFamily: {
       ag: ['AGHelveticaCyr', 'sans-serif'],
     },

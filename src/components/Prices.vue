@@ -1,8 +1,7 @@
 <template>
-
+  <a name="prices"></a>
   <div class="/bg-[url('/img/fon_2.png')] bg-center bg-no-repeat bg-[length:100%_100%]">
-    <div class="container mx-auto lg:pb-[150px] pb-10 py-4">
-      <a name="prices"></a>
+    <div class="container mx-auto lg:pb-[150px] pb-10 lg:py-10 py-4">
       <div class="lg:flex justify-center items-center mb-5">
         <div class="text-center">
           <h2 class="lg:text-5xl text-3xl font-extrabold leading-tight uppercase text-white">
@@ -12,11 +11,12 @@
       </div>
       <div class="relative grid lg:grid-cols-3 grid-cols-1 gap-y-10 justify-between lg:pt-[50px] pt-4 gap-x-10 ">
         <div>
-          <h3 class="lg:text-2xl text-xl text-center text-white  uppercase font-ag">
-          1 час<br>последующие
+          <h3 class="lg:text-2xl text-xl text-center text-white  uppercase font-ag flex lg:flex-col justify-center gap-x-2">
+          <div>1 час</div>
+          <div>последующие</div>
           </h3>
           <div class="p-1 rounded-2xl from-[#13DDB2]  to-[#B5F602] bg-gradient-to-r lg:h-[270px] h-auto mt-4">
-            <div class="flex lg:px-4 px-8 font-semibold rounded-2xl bg-[#1E1D1F] text-white lg:h-[260px] h-auto w-full  py-4 text-xl">
+            <div class="flex justify-center lg:px-4 px-8 font-semibold rounded-2xl bg-[#1E1D1F] text-white lg:h-[260px] h-auto w-full  py-4 text-xl">
               <div class = "justify-center items-center flex">
               <div class = "grid grid-cols-[repeat(3,1fr)] items-center pb-[10px] gap-x-4 gap-y-2">
                 <div>Питбайк</div>
@@ -37,12 +37,12 @@
           </div>
         </div>
         <div>
-          <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag">
-          Абонемент<br>Выгода
+          <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag flex lg:flex-col justify-center gap-x-2">
+          <div>Абонемент</div>
+          <div>Выгода</div>
           </h3>
           <div class="p-1 flex rounded-2xl from-[#B5F602]  to-[#C8258D] bg-gradient-to-r lg:h-[270px] h-auto mt-4">
             <div class="lg:px-4 px-8 font-semibold rounded-2xl bg-[#1E1D1F] lg:h-[260px] h-auto text-white w-full py-4 text-xl flex flex-col items-center justify-center">
-              <div class = "">
               <div class = "text-center pb-[10px] text-[#B5F602]">3 посещения</div>
               <div class = "grid grid-cols-[repeat(3,1fr)] gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
                 <div>Питбайк</div>
@@ -62,12 +62,12 @@
                 <div>2500</div>
               </div>
             </div>
-            </div>
           </div>
         </div>
         <div>
-          <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag">
-          Сопровождение<br>гида
+          <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag flex lg:flex-col justify-center gap-x-2">
+            <div>Сопровождение</div>
+            <div>гида</div>
           </h3>
           <div class="p-1 flex rounded-2xl from-[#1096DC]  to-[#C8258D] bg-gradient-to-r lg:h-[270px] h-auto mt-4">
             <div class="px-4 font-semibold rounded-2xl bg-[#1E1D1F] text-white w-full py-4 lg:h-[260px] h-auto text-xl flex justify-center text-center">
