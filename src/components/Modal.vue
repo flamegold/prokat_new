@@ -24,7 +24,7 @@
                     <div class="mt-4">
                       <form class="w-full">
                         <div class="flex flex-wrap -mx-3 mb-3">
-                          <div class="w-full md:w-100 px-3 mb-6 md:mb-0">
+                          <div class="w-full md:w-100 px-3">
                             <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2"
                               for="grid-first-name">
                               Ваше имя

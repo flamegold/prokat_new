@@ -11,6 +11,7 @@
     <FaqVue />
     <GalleryVue />
     <FooterVue />
+    <PhoneButtonVue />
   </div>
 </div>
   </div>
@@ -26,6 +27,7 @@ import VideosVue from './components/Videos.vue'
 import GalleryVue from './components/Gallery.vue'
 import ContactsVue from './components/Contacts.vue'
 import FooterVue from './components/Footer.vue'
+import PhoneButtonVue from './components/PhoneButton.vue'
 </script>
 
 <style>
