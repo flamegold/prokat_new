@@ -53,7 +53,7 @@
               <div class="bg-[#222123] rounded-b-2xl px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
                 <button type="button"
                   class="inline-flex w-full justify-center border border-transparent bg-[#B5F602] rounded-full px-4 py-2 text-base font-medium text-black shadow-sm hover:opacity-90 focus:outline-none focus:ring-2 focus:opacity-90 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm"
-                  @click="Submit" :isOpen="false">{{ name }}</button>
+                  @click="Submit(); isOpen = !isOpen">{{ name }}</button>
               </div>
             </DialogPanel>
           </TransitionChild>
@@ -79,7 +79,7 @@ const props = defineProps({
 const inputName = ref('')
 const inputTel = ref('')
 const token = ref('5496671113:AAHvbI-TEfK6IwkPHf0AKanDtSUFik4zkRs')
-const chatId = ref('/1094383757')
+const chatId = ref('6119069185')
 
 function Submit() {
   const message = ref("Новая заявка с сайта enot-tmn.ru:%0AИмя: " + inputName.value + "%0AНомер телефона: " + inputTel.value)
