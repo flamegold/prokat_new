@@ -130,13 +130,13 @@
           </swiper-slide>
           <swiper-slide>
             <div class="grid grid-cols-2 grid-rows-2 gap-4">
-              <div class = "row-start-2 row-end-3 col-start-1 col-end-3">
+              <div class = "">
                 <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/31.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
-              <div class = "row-start-1 row-end-2 col-start-1 col-end-2">
+              <div class = "">
                 <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/32.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
-              <div class = "row-start-1 row-end-2 col-start-2 col-end-3">
+              <div class = "">
                 <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/33.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
             </div>
