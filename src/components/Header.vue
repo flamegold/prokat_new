@@ -52,7 +52,7 @@
       </div> 
     </div>
   </div>
-  <div class = "container fixed lg:hidden block mt-24 z-[99] px-8 bg-black text-white" :class="isOpenMenu ? 'opacity-100 max-h-[400px] transition-[max-height_0.15s_ease-out]' : 'max-h-0 opacity-0 transition-[max-height_0.25s_ease-out]' ">
+  <div class = "container fixed lg:hidden block mt-24 z-[99] px-8 bg-black text-white " :class="isOpenMenu ? 'ease-in-out scale-100 transition-transform' : 'transition-transform ease-in-out scale-0' ">
     <div class = "text-2xl gap-y-2 flex flex-col py-4">
       <div><a href = "#" @click="isCloseMenu">Главная</a></div>
       <div><a href = "#prices" @click="isCloseMenu">Цены</a></div>

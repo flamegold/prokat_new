@@ -30,7 +30,7 @@
                               Ваше имя
                             </label>
                             <input required v-model="inputName"
-                              class="appearance-none block w-full bg-[#222123] border-[#383636] text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                              class="appearance-none block w-full bg-white border-[#383636] text-black border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                               id="grid-first-name" type="text" placeholder="Ваше имя...">
                           </div>
                         </div>
@@ -41,7 +41,7 @@
                               Номер телефона
                             </label>
                             <input v-mask="'+7 (###) ###-##-##'" required v-model="inputTel"
-                              class="appearance-none block w-full bg-[#222123] border-[#383636] text-white border  rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                              class="appearance-none block w-full bg-white border-[#383636] text-black border  rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                               id="grid-password" type="text" placeholder="+7 (999) 999-99-99">
                           </div>
                         </div>
@@ -53,7 +53,7 @@
               <div class="bg-[#222123] rounded-b-2xl px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
                 <button type="button"
                   class="inline-flex w-full justify-center border border-transparent bg-[#B5F602] rounded-full px-4 py-2 text-base font-medium text-black shadow-sm hover:opacity-90 focus:outline-none focus:ring-2 focus:opacity-90 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm"
-                  @click="Submit">{{ name }}</button>
+                  @click="Submit" :isOpen="false">{{ name }}</button>
               </div>
             </DialogPanel>
           </TransitionChild>
@@ -64,23 +64,26 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref,watch } from 'vue'
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import axios from 'axios'
 
 const props = defineProps({
   isOpen: Boolean,
-  name: String
+  name: String,
 })
 
 
+
+//6119069185
 const inputName = ref('')
 const inputTel = ref('')
 const token = ref('5496671113:AAHvbI-TEfK6IwkPHf0AKanDtSUFik4zkRs')
-const chatId = ref('690175954')
-const message = ref('Новая заявка с сайта prokat-tmn.ru:\nИмя: ' + inputName.value + '\nНомер телефона: ' + inputTel.value);
+const chatId = ref('/1094383757')
 
 function Submit() {
-  axios.post('https://api.telegram.org/bot' + token.value + '/sendMessage?chat_id=' + chatId.value + '&text=' + message.value);
+  const message = ref("Новая заявка с сайта enot-tmn.ru:%0AИмя: " + inputName.value + "%0AНомер телефона: " + inputTel.value)
+  axios.post('https://api.telegram.org/bot' + token.value + '/sendMessage?chat_id=' + chatId.value + '&text=' + message.value)
 }
 </script>
 

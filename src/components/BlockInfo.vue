@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class = "flex lg:flex-row lg:gap-0 gap-10 justify-center flex-col relative lg:pt-[100px] pt-8 lg:justify-between">
+      <div class = "lg:flex-row lg:flex hidden lg:gap-0 gap-10 justify-center flex-col relative lg:pt-[100px] pt-8 lg:justify-between">
         <div class = "flex justify-center"><img src="/img/light.svg" alt="light" srcset="" class = "lg:w-[90%] w-[30%]"></div>
         <div class = "flex justify-center"><img src="/img/medium.svg" alt="medium" srcset="" class = "lg:w-[90%] w-[50%]"></div>
         <div class = "flex justify-center"><img src="/img/hard.svg" alt="hard" srcset="" class = "lg:w-[90%] w-[30%]"></div>
@@ -45,7 +45,7 @@
       </div>
     </div>
   </div>
-  <ModalVue :isOpen="isOpen" @close="closeModal" name="Записаться" />
+  <ModalVue :isOpen="isOpen" @close="closeModal" name="Записаться"  />
 </template>
 
 <script setup>
@@ -58,7 +58,6 @@ const name = ref('');
 function closeModal() {
   isOpen.value = false
 }
-
 
 function openModal() {
   isOpen.value = true

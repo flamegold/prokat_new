@@ -11,7 +11,7 @@
       </div>
       <div class="relative grid lg:grid-cols-3 grid-cols-1 gap-y-10 justify-between lg:pt-[50px] pt-4 gap-x-10 ">
         <div>
-          <h3 class="lg:text-2xl text-xl text-center text-white  uppercase font-ag flex lg:flex-col justify-center gap-x-2">
+          <h3 class="lg:text-2xl text-xl text-center text-white  uppercase font-ag flex flex-col justify-center gap-x-2">
           <div>1 час</div>
           <div>последующие</div>
           </h3>
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div>
-          <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag flex lg:flex-col justify-center gap-x-2">
+          <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag flex flex-col justify-center gap-x-2">
           <div>Абонемент</div>
           <div>Выгода</div>
           </h3>
@@ -90,7 +90,9 @@
           <button @click="openModal" class="lg:text-xl lg:py-4 py-4 bg-[#B5F602] rounded-full uppercase font-bold mt-[20px] w-[100%]">Заказать сертификат</button>
         </div>
         <div class = "row-start-2 row-end-3 col-start-2 col-end-3 bg-[#1E1D1F] shadow-lg shadow-[#222123]/50 rounded-2xl lg:py-8 lg:px-12">
-          <div class="bg-[url('/img/prices_2.png')] bg-[length:100%_100%] lg:h-[100%] h-[200px]"></div>
+          <div class="lg:bg-[url('/img/prices_2.png')] bg-[length:100%_100%] lg:h-[100%] h-[200px]">
+            <img src = "/img/prices_2.png" class = "lg:hidden block">
+          </div>
         </div>
       </div>
     </div>

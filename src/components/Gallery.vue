@@ -13,131 +13,131 @@
           <swiper-slide>
             <div class="grid grid-cols-4 grid-rows-2 gap-4">
               <div class = "row-start-1 row-end-2 col-start-1 col-end-3">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/1.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/1.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-1 row-end-2 col-start-3 col-end-5">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/2.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/2.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-2 row-end-3 col-start-1 col-end-2">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/34.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/34.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-2 row-end-3 col-start-2 col-end-3">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/35.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/35.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-2 row-end-3 col-start-3 col-end-5">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/5.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/5.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="grid grid-cols-4 grid-rows-2 gap-4">
               <div class = "row-start-1 row-end-2 col-start-1 col-end-3">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/6.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/6.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-1 row-end-2 col-start-3 col-end-5">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/7.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/7.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-2 row-end-3 col-start-1 col-end-2">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/36.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/36.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-2 row-end-3 col-start-2 col-end-3">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/37.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/37.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-2 row-end-3 col-start-3 col-end-5">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/10.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/10.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="grid grid-cols-2 grid-rows-2 gap-4">
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/11.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/11.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/12.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/12.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/13.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/13.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/14.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
-              </div>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="grid grid-cols-2 grid-rows-2 gap-4">
-              <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/15.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
-              </div>
-              <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/16.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
-              </div>
-              <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/17.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
-              </div>
-              <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/18.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/14.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="grid grid-cols-2 grid-rows-2 gap-4">
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/19.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/15.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/20.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/16.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/21.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/17.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/22.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
-              </div>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="grid grid-cols-2 grid-rows-2 gap-4">
-              <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/23.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
-              </div>
-              <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/24.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
-              </div>
-              <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/25.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
-              </div>
-              <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/26.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/18.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="grid grid-cols-2 grid-rows-2 gap-4">
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/27.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/19.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/28.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/20.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/29.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/21.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/30.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/22.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="grid grid-cols-2 grid-rows-2 gap-4">
+              <div class = "">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/23.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
+              </div>
+              <div class = "">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/24.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
+              </div>
+              <div class = "">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/25.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
+              </div>
+              <div class = "">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/26.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="grid grid-cols-2 grid-rows-2 gap-4">
+              <div class = "">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/27.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
+              </div>
+              <div class = "">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/28.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
+              </div>
+              <div class = "">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/29.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
+              </div>
+              <div class = "">
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/30.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="grid grid-cols-2 grid-rows-2 gap-4">
               <div class = "row-start-2 row-end-3 col-start-1 col-end-3">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/31.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/31.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-1 row-end-2 col-start-1 col-end-2">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/32.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/32.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
               <div class = "row-start-1 row-end-2 col-start-2 col-end-3">
-                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/33.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[350px]"></div>
+                <div class="bg-[#222123] rounded-2xl bg-[url('/img/gallery/33.jpg')] bg-center bg-no-repeat bg-[length:100%_100%] h-[450px]"></div>
               </div>
             </div>
           </swiper-slide>

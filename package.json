@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coreui/coreui": "^4.3.0",
+    "@coreui/vue": "^4.10.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
@@ -25,6 +27,7 @@
     "vue": "^3.2.41",
     "vue-awesome-swiper": "^5.0.1",
     "vue-axios": "^3.5.2",
+    "vue-collapsed": "^1.2.7",
     "vue-grid-swiper": "^0.1.2",
     "vue-resource": "^1.5.3",
     "vue-the-mask": "^0.11.1",
