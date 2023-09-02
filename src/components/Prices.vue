@@ -20,14 +20,14 @@
               <div class = "justify-center items-center flex">
               <div class = "grid grid-cols-[repeat(3,1fr)] items-center pb-[10px] gap-x-4 gap-y-2">
                 <div>Питбайк</div>
-                <div class="text-center">1500</div>
-                <div>1000</div>
+                <div class="text-center">1600</div>
+                <div>1100</div>
                 <div>Эндуро</div>
-                <div class="text-center">2000</div>
-                <div>1500</div>
+                <div class="text-center">2100</div>
+                <div>1600</div>
                 <div>Квадрик</div>
-                <div class="text-center">2000</div>
-                <div>1500</div>
+                <div class="text-center">2500</div>
+                <div>2000</div>
                 <div>Мотоботы</div>
                 <div class="text-center">500</div>
                 <div>выезд</div>
@@ -46,19 +46,19 @@
               <div class = "text-center pb-[10px] text-[#B5F602]">3 посещения</div>
               <div class = "grid grid-cols-[repeat(3,1fr)] gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
                 <div>Питбайк</div>
-                <div class="text-center">3500</div>
+                <div class="text-center">3800</div>
                 <div>1000</div>
                 <div>Эндуро</div>
-                <div class="text-center">5000</div>
+                <div class="text-center">5300</div>
                 <div>1000</div>
               </div>
               <div class = "text-center pb-[10px] text-[#B5F602]">6 посещений</div>
               <div class = "grid grid-cols-[repeat(3,1fr)] gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
                 <div>Питбайк</div>
-                <div class="text-center">6500</div>
+                <div class="text-center">7100</div>
                 <div>2500</div>
                 <div>Эндуро</div>
-                <div class="text-center">9500</div>
+                <div class="text-center">10100</div>
                 <div>2500</div>
               </div>
             </div>
