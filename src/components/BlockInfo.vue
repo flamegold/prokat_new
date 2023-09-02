@@ -3,7 +3,7 @@
 
   </div>
   <div class="text-white lg:pb-[200px] pb-40 pt-10 lg:pt-0 container">
-    <div class="lg:px-[170px] px-4 lg:bg-[url('/img/enot_p1.png')] bg-[#000] rounded-2xl lg:h-[1700px] bg-center bg-no-repeat  bg-[length:100%_100%] top-[101px] relative mx-auto z-10">
+    <div class="lg:px-[170px] px-4 lg:bg-[url('/img/enot_p1.webp')] bg-[#000] rounded-2xl lg:h-[1700px] bg-center bg-no-repeat  bg-[length:100%_100%] top-[101px] relative mx-auto z-10">
       <div class = "text-center lg:pt-[100px] pt-10 uppercase lg:leading-[190px] lg:text-9xl mb-10 lg:mb-0 text-5xl font-bold font-ag">Прокат</div>
       <div class = "text-center uppercase lg:text-5xl text-2xl lg:leading-[90px] font-bold">
         <div class = "grid lg:grid-cols-2 grid-cols-1 justify-center lg:px-4 xl:px-24 md:px-4 px-4 gap-y-2">

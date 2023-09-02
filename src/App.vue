@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-hidden">
     <HeaderVue />
-  <div class="bg-[url(/img/fon.png)] bg-center bg-no-repeat bg-[length:100%_100%]">
+  <div class="bg-[url(/img/fon.webp)] bg-center bg-no-repeat bg-[length:100%_100%]">
     <div class = "bg-[url('/img/fon_1.png')] bg-center bg-no-repeat  bg-[length:100%_100%]">
     <BlockInfoVue />
     <BlockInfoVueTwo />

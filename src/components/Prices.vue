@@ -78,7 +78,7 @@
         </div>
       </div>
       <div class = "grid lg:grid-rows-2 lg:grid-cols-2 grid-rows-1 grid-cols-1 text-center mt-10 gap-y-4 lg:gap-x-4">
-        <div class ="lg:block hidden row-start-1 row-end-3 col-start-1 col-end-2 bg-[url('/img/prices_1.png')] shadow-[#222123]/50 rounded-2xl bg-center bg-no-repeat bg-[length:100%_100%]"></div>
+        <div class ="lg:block hidden row-start-1 row-end-3 col-start-1 col-end-2 bg-[url('/img/prices_1.webp')] shadow-[#222123]/50 rounded-2xl bg-center bg-no-repeat bg-[length:100%_100%]"></div>
         <div class = "row-start-1 row-end-2 col-start-2 col-end-3 bg-[#1E1D1F] py-8 lg:px-12 px-8 shadow-lg shadow-[#222123]/50 rounded-2xl">
           <h3 class = "text-4xl uppercase text-[#B5F602] mb-4">Подарочный сертификат</h3>
           <p class = "text-justify text-white ">Задумываетесь, что подарить важному человеку? Часто
