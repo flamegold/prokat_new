@@ -12,24 +12,28 @@
       <div class="relative grid lg:grid-cols-3 grid-cols-1 gap-y-10 justify-between lg:pt-[50px] pt-4 gap-x-10 ">
         <div>
           <h3 class="lg:text-2xl text-xl text-center text-white  uppercase font-ag flex flex-col justify-center gap-x-2">
-          <div>1 час</div>
-          <div>последующие</div>
+          <div>&nbsp;</div>
+          <div>30 мин / 1 час / последующие</div>
           </h3>
           <div class="p-1 rounded-2xl from-[#13DDB2]  to-[#B5F602] bg-gradient-to-r lg:h-[270px] h-auto mt-4">
             <div class="flex justify-center lg:px-4 px-8 font-semibold rounded-2xl bg-[#1E1D1F] text-white lg:h-[260px] h-auto w-full  py-4 text-xl">
               <div class = "justify-center items-center flex">
-              <div class = "grid grid-cols-[repeat(3,1fr)] items-center pb-[10px] gap-x-4 gap-y-2">
+              <div class = "grid grid-cols-[repeat(4,1fr)] items-center pb-[10px] gap-x-4 gap-y-2">
                 <div>Питбайк</div>
-                <div class="text-center">1600</div>
-                <div>1100</div>
+                <div class="text-center">1300</div>
+                <div class="text-center">1800</div>
+                <div>1300</div>
                 <div>Эндуро</div>
-                <div class="text-center">2100</div>
-                <div>1600</div>
-                <div>Квадрик</div>
+                <div class="text-center">2000</div>
                 <div class="text-center">2500</div>
+                <div>2000</div>
+                <div>Квадроцикл</div>
+                <div class="text-center">2500</div>
+                <div class="text-center">3000</div>
                 <div>2000</div>
                 <div>Мотоботы</div>
                 <div class="text-center">500</div>
+                <div class="text-center">&nbsp;</div>
                 <div>выезд</div>
               </div>
             </div>
@@ -38,28 +42,28 @@
         </div>
         <div>
           <h3 class="lg:text-2xl text-xl text-center text-white uppercase font-ag flex flex-col justify-center gap-x-2">
-          <div>Абонемент</div>
-          <div>Выгода</div>
+          <div>&nbsp;</div>
+          <div>Абонемент / Выгода</div>
           </h3>
           <div class="p-1 flex rounded-2xl from-[#B5F602]  to-[#C8258D] bg-gradient-to-r lg:h-[270px] h-auto mt-4">
             <div class="lg:px-4 px-8 font-semibold rounded-2xl bg-[#1E1D1F] lg:h-[260px] h-auto text-white w-full py-4 text-xl flex flex-col items-center justify-center">
               <div class = "text-center pb-[10px] text-[#B5F602]">3 посещения</div>
               <div class = "grid grid-cols-[repeat(3,1fr)] gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
                 <div>Питбайк</div>
-                <div class="text-center">3800</div>
+                <div class="text-center">4400</div>
                 <div>1000</div>
                 <div>Эндуро</div>
-                <div class="text-center">5300</div>
+                <div class="text-center">6500</div>
                 <div>1000</div>
               </div>
               <div class = "text-center pb-[10px] text-[#B5F602]">6 посещений</div>
               <div class = "grid grid-cols-[repeat(3,1fr)] gap-x-4 gap-y-2 grid-rows-2 pb-[10px]">
                 <div>Питбайк</div>
-                <div class="text-center">7100</div>
-                <div>2500</div>
+                <div class="text-center">7800</div>
+                <div>3000</div>
                 <div>Эндуро</div>
-                <div class="text-center">10100</div>
-                <div>2500</div>
+                <div class="text-center">12000</div>
+                <div>3000</div>
               </div>
             </div>
           </div>
