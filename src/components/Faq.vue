@@ -17,7 +17,7 @@
             <Collapse :when="questions[index].isExpanded">
               <p class="font-medium">{{ question.answer }}</p>
             </Collapse>
-            <span :class = "questions[index].isExpanded ? 'after:content-[url(/img/minus.svg)]' : 'after:content-[url(/img/plus.svg)]'" class=" right-[35px] top-[7px] absolute"></span>
+            <span :class = "questions[index].isExpanded ? 'after:content-[url(/img/minus.svg)]' : 'after:content-[url(/img/plus.svg)]'" class=" right-[35px] top-[0px] absolute"></span>
             <span class="before:content-[''] w-[calc(100%-60px)] h-[1px] bg-white  left-[30px] bottom-[-20px] absolute"></span>
           </div>
         </div>
