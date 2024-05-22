@@ -12,7 +12,7 @@
         </div>
         <div class = "bg-[#1E1D1F] lg:py-12 py-8 text-white shadow-2xl shadow-[#222123]/50 rounded-2xl mb-20">
           <div class="relative lg:mb-14 mb-10 lg:px-24 px-8" v-for="(question, index) in questions" :key="question.title">
-            <span class="lg:before:content-[url(/img/arrow.svg)] left-[40px] top-[7px] absolute"></span>
+            <span class="lg:before:content-[url(/img/arrow.svg)] left-[40px] top-[0px] absolute"></span>
             <p class="lg:text-2xl text-xl text-[#B5F602] uppercase font-medium leading-tight lg:mb-3 mb-1 cursor-pointer pr-4" @click="handleAccordion(index)">{{ question.title }}</p>
             <Collapse :when="questions[index].isExpanded">
               <p class="font-medium">{{ question.answer }}</p>
